@@ -1,4 +1,4 @@
-## COVID19 aggregated data extraction from John-Hopkins Dashboard using ArcGIS API for Python
+## Automatic data extraction & export of aggregated data from John Hopkins COVID19 Dashboard
 
 ### Introduction
 [John-Hopkins University](https://github.com/CSSEGISandData/COVID-19) has put in a tremendous effort in gathering all the COVID-19 data from reliable sources and bringing to us in the form of an ArcGIS Dashboard. They have also open-sourced all the feature layers to public, for using in their own dashboards or analysis.
