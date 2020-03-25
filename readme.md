@@ -1,11 +1,10 @@
 ## COVID19 aggregated data extraction from John-Hopkins Dashboard using ArcGIS API for Python
 
 ### Introduction
-As we all know John-Hopkins University is putting in a tremendous effort is gathering all the COVID-19 data from reliable sources and bringing in front of us in the form of an ArcGIS Dashboard.
-All the feature layers used were open to public, for using in their analysis.This is an attempt to automatically extract the numbers (Active, Confirmed, Deaths) both Countrywise,US-Countywise and finally aggregate,style and export them to a neatly formatted spreadsheet from their dashboard. This is performed by leveraging Pandas and ArcGIS API for Python.
+[John-Hopkins University](https://github.com/CSSEGISandData/COVID-19) has put in a tremendous effort in gathering all the COVID-19 data from reliable sources and bringing to us in the form of an ArcGIS Dashboard. They have also open-sourced all the feature layers to public, for using in their own dashboards or analysis.
 
 ### Challenge
-Even though most of the data is open sourced, for people who want some quick numbers it would be tedious to look for the service layers, add/connect them in their AGOL, download the data set and aggregate them county-wise.
+Even though most of the data is open sourced, for people who want get all numbers, it would be tedious to look for the service layers, add/connect them in their ArcGIS Online Organization, download the data set and aggregate them county-wise.Hence, this is an attempt to automatically extract the numbers (Active, Confirmed, Deaths) both Countrywise,US-Countywise and finally aggregate,style and export them to a neatly formatted spreadsheet from their dashboard. This is performed by leveraging Pandas and ArcGIS API for Python.
 
 ### Data Source
 Here is the first hosted feature service that was open-sourced by John Hopkins
@@ -57,7 +56,7 @@ Upon a huge demand, JHU also came up with US-Countywise feature service on March
 You might observe a small difference in Confirmed and Active numbers for the US when we compare the US-Countywise cases dataset and the Country wide dataset. This is due to the time of update of the feature layers. The country-wide feature layer update is ahead of the US-Countywise update.
 
 #### Notebook Viewer:
-Due to [limitation](https://help.github.com/en/github/managing-files-in-a-repository/working-with-jupyter-notebook-files-on-github) of rendering interactive Javascript plots,stylings in your notebook inside the github repository, I have included the notebook along with dataframe stylings in the nbviewer [here](https://nbviewer.jupyter.org/github/rvg296/Covid19-JHUDashboard-Data-Extraction/blob/master/Covid19-Numbers-Extraction.ipynb#)
+Due to [limitation](https://help.github.com/en/github/managing-files-in-a-repository/working-with-jupyter-notebook-files-on-github) of rendering interactive Javascript plots,stylings in your notebook inside the github repository, I have included the notebook along with dataframe stylings in the nbviewer **[here](https://nbviewer.jupyter.org/github/rvg296/Covid19-JHUDashboard-Data-Extraction/blob/master/Covid19-Numbers-Extraction.ipynb#)**
 
 
 #### Sample Screenshots:
@@ -80,3 +79,5 @@ Due to [limitation](https://help.github.com/en/github/managing-files-in-a-reposi
 * [Pandas-Styling](https://pandas.pydata.org/pandas-docs/stable/user_guide/style.html)
 * [Pandas-Pivoting](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.pivot.html)
 * [Color-Formatting](https://www.rapidtables.com/web/color/html-color-codes.html)
+* [JHU-Git-Hub](https://github.com/CSSEGISandData/COVID-19)
+
