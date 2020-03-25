@@ -58,8 +58,6 @@ You might observe a small difference in Confirmed and Active numbers for the US 
 
 #### Sample Screenshots:
 
-<img src="/images/Country-BarStyle.PNG" width="200">
-
 *In Jupyter Notebook*
 ![](/images/Country-BarStyle.PNG "CountryWiseCases-BarStyle")
 ![](/images/Country-GradientStyle.PNG "CountryWiseCases-GradientStyle")
