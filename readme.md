@@ -1,7 +1,7 @@
-## Automatic data extraction & export of aggregated data from John Hopkins COVID19 Dashboard
+## Automatic data extraction & export of aggregated data from JHU COVID19 Dashboard
 
 ### Introduction
-[John-Hopkins University](https://github.com/CSSEGISandData/COVID-19) has put in a tremendous effort in gathering all the COVID-19 data from reliable sources and bringing to us in the form of an ArcGIS Dashboard. They have also open-sourced all the feature layers to public, for using in their own dashboards or analysis.
+[Johns-Hopkins University](https://github.com/CSSEGISandData/COVID-19) has put in a tremendous effort in gathering all the COVID-19 data from reliable sources and bringing to us in the form of an ArcGIS Dashboard. They have also open-sourced all the feature layers to public, for using in their own dashboards or analysis.
 
 ### Challenge
 Even though most of the data is open sourced, for people who want get all numbers, it would be tedious to look for the service layers, add/connect them in their ArcGIS Online Organization, download the data set and aggregate them county-wise.Hence, this is an attempt to automatically extract the numbers (Active, Confirmed, Deaths) both Countrywise,US-Countywise and finally aggregate,style and export them to a neatly formatted spreadsheet from their dashboard. This is performed by leveraging Pandas and ArcGIS API for Python.
