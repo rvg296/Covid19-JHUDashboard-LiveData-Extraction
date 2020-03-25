@@ -1,4 +1,4 @@
-### Automatic data extraction & export of categorized data from JHU COVID19 Dashboard
+## Automatic data extraction & export of categorized data from JHU COVID-19 Dashboard
 
 ### Introduction
 [Johns-Hopkins University](https://github.com/CSSEGISandData/COVID-19) has put in a tremendous effort in gathering all the COVID-19 data from reliable sources and bringing to us in the form of an ArcGIS Dashboard. They have also open-sourced all the feature layers to public, for using in their own dashboards or analysis.
