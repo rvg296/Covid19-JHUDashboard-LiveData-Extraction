@@ -8,9 +8,9 @@ All the feature layers used were open to public, for using in their analysis.Thi
 Even though most of the data is open sourced, for people who want some quick numbers it would be tedious to look for the service layers, add/connect them in their AGOL, download the data set and aggregate them county-wise.
 
 ### Data Source
-Here is the first hosted feature service that was open-sourced by John Hopkins\
+Here is the first hosted feature service that was open-sourced by John Hopkins
 
-[Covid19-WorldWide-Cases](https://www.arcgis.com/home/item.html?id=c0b356e20b30490c8b8b4c7bb9554e7c)\
+[Covid19-WorldWide-Cases](https://www.arcgis.com/home/item.html?id=c0b356e20b30490c8b8b4c7bb9554e7c)
 
 This feature service has 3 feature layers in it namely
 
@@ -18,7 +18,7 @@ This feature service has 3 feature layers in it namely
 * [Cases](https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/ncov_cases/FeatureServer/1)
 * [Cases_Country](https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/ncov_cases/FeatureServer/2)
 
-Upon a huge demand, JHU also came up with US-Countywise feature service on March 23rd, 2020.\
+Upon a huge demand, JHU also came up with US-Countywise feature service on March 23rd, 2020.
 
 [COVID19-USCountyCases](https://www.arcgis.com/home/item.html?id=628578697fb24d8ea4c32fa0c5ae1843)
 
