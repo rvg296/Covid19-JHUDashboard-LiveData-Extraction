@@ -67,7 +67,7 @@ You might observe a small difference in Confirmed and Active numbers for the US 
 
 
 *In Excel*
-![](/images/Country-GradientStyle-Excel.PNG "CountryWiseCases-GradientStyle-Excel")
+![](/images/Country-Gradient-Excel.PNG "CountryWiseCases-GradientStyle-Excel")
 ![](/images/US-County-Excel.PNG "CountryWiseCases-GradientStyle-Excel")
 
 
