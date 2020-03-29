@@ -61,6 +61,7 @@ Due to [limitation](https://help.github.com/en/github/managing-files-in-a-reposi
 
 #### Sample Screenshots:
 
+*The numbers quoted below may vary depending on the time you run the script*
 *In Jupyter Notebook*
 ![](/images/Country-BarStyle.PNG "CountryWiseCases-BarStyle")
 ![](/images/Country-GradientStyle.PNG "CountryWiseCases-GradientStyle")
