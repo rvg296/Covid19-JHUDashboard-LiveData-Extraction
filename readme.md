@@ -56,11 +56,13 @@ Upon a huge demand, JHU also came up with US-Countywise feature service on March
 You might observe a small difference in Confirmed and Active numbers for the US when we compare the US-Countywise cases dataset and the Country wide dataset. This is due to the time of update of the feature layers. The country-wide feature layer update is ahead of the US-Countywise update.
 
 #### Notebook Viewer:
-Due to [limitation](https://help.github.com/en/github/managing-files-in-a-repository/working-with-jupyter-notebook-files-on-github) of rendering interactive Javascript plots,stylings in your notebook inside the github repository, I have included the notebook along with dataframe stylings in the nbviewer **[here](https://nbviewer.jupyter.org/github/rvg296/Covid19-JHUDashboard-Data-Extraction/blob/master/Covid19-Numbers-Extraction.ipynb#)**
+Due to [limitation](https://help.github.com/en/github/managing-files-in-a-repository/working-with-jupyter-notebook-files-on-github) of rendering interactive Javascript plots,stylings in your notebook inside the github repository, I have included the notebook along with dataframe stylings in the nbviewer. 
+**[Click to access the notebook viewer here](https://nbviewer.jupyter.org/github/rvg296/Covid19-JHUDashboard-Data-Extraction/blob/master/Covid19-Numbers-Extraction.ipynb#)**
 
 
 #### Sample Screenshots:
 
+*The numbers quoted below may vary depending on the time you run the script*
 *In Jupyter Notebook*
 ![](/images/Country-BarStyle.PNG "CountryWiseCases-BarStyle")
 ![](/images/Country-GradientStyle.PNG "CountryWiseCases-GradientStyle")
